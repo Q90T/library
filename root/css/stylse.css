@@ -1,0 +1,289 @@
+body {
+margin: 0;
+ /*background-repeat:no-repeat;*/
+ /*background-size:cover;*/
+/*background-attachment:scroll;*/
+ /*background-image:url('image1aa.JPEG');*/
+font-family: Arial, sans-serif;
+
+}
+
+header {
+background-color: #f76541;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+}
+input[type="text"]{
+	color:#300;
+	
+}
+bnn{border: 1.5px solid white ;
+   margin-top: 10px;
+   padding: 10px;
+   
+   border-radius: 25px;
+  }
+.main-content {
+      margin-top:60px;
+    padding: 20px;
+            }
+			@keyframes moveText {
+   50% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px); /* يمكنك تغيير هذه القيمة لتحديد المسافة التي يتحرك بها النص */
+    }
+    50% {
+      transform: translateX(10 px);
+    }
+  }
+ 
+  .moving-text {
+    animation: moveText 2.5s infinite;
+	font-size:30px;
+	font-weight:bold;
+	font-style:italic;
+  }
+  
+  body {
+    transition: background-color 0.5s ease;
+    background-color: #66cccc; /* لون الخلفية في الوضع النهاري */
+    color: #000000; /* لون النص في الوضع النهاري */
+    text-align: center; /* لتوسيط العنوان */
+    margin: 0px; /* إزالة هوامش الصفحة */
+    padding: 0px; /* إزالة حواف الصفحة */
+    position: relative; /* تحديد العناصر الفرعية مرتبطة بالصفحة */
+  }
+
+  .navbar {
+    /*background-color:;  /* لون شريط القائمة */
+    width: 100%; /* عرض شريط القائمة بالكامل */
+    position: fixed; /* تثبيت شريط القائمة أعلى الصفحة */
+    top: 10px; /* تحديد موقع شريط القائمة في أعلى الصفحة */
+    z-index: 9999; /* تحديد الترتيب الأمامي لشريط القائمة */
+  }
+
+  body .content {
+
+   position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 30px; /* حجم العنوان */
+    margin-top: 0px; /* المسافة من الأعلى */
+  }
+
+  .image-container {
+    width: 30%;
+    height: 40vh;
+    margin-top: 120px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #menu {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+	margin-top:38px;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+    left: 10; /* تحديد موقع القائمة على اليسار */
+	
+
+  }
+ul{
+
+
+}
+  #menu li {
+    padding: 15px 30px;
+    border-radius: 10px;
+	width:50%;
+  }
+
+  #menu li a {
+    text-decoration: none;
+    color: #ffffff;
+
+		
+  }
+ 
+
+  #menu li:hover {
+    background-color: #000;
+  }
+
+  #menuButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 30px; /* تحديد موقع زر عرض القائمة على اليسار */
+    z-index: 2;
+	display:black;
+
+  }
+
+  #menuButton:after {
+    content: "  ☰";
+    color:orange;
+    font-size: 25px;
+  }
+
+  #toggleNightMode {
+    position: absolute;
+    top: 0;
+    right: 30px; /* التباعد من اليمين */
+    cursor: pointer;
+    font-size:30px;
+  }
+ .bnn{border: 1.5px solid white ;
+   margin-top: 10px;
+   padding: 10px;
+   
+   border-radius: 25px;
+  }
+  img {
+    
+    border-radius: 10%;
+}
+input{
+	position:relative;
+	display:inline-table;
+	font-size:20px;
+	box-sizing:border-box;
+	transition:.5s
+	
+	}
+	input[type="text"]{
+		background:#fff;
+		width:350px;
+		height:50px;
+		border:none;
+		outline:none;
+		padding:0 25px;
+		border-radius:25px 0 0 25px;
+	} 
+	input[type="text1"]{
+		background:#fff;
+		width:400px;
+		height:50px;
+		border:none;
+		outline:none;
+		padding:0 25px;
+		border-radius:25px   25px 25px  25px;
+	}
+		input[type="text2"]{
+		background:#fff;
+		width:570px;
+		height:50px;
+		border:none;
+		outline:none;
+		padding:0 25px;
+		border-radius:25px   25px 25px  25px;
+	}
+	input[type="text3"]{
+		background:#fff;
+		width:200px;
+		height:50px;
+		border:none;
+		outline:none;
+		padding:0 25px;
+	
+	}
+	
+	input[type="submit"]{
+		
+		
+		position:relative;
+		border-radius: 0 25px 25px 0;
+	width:150px;
+		height:50px;
+		border:none;
+		outline:none;
+		cursor:pointer;
+		background:#ffc107;
+		color:#fff;
+		}
+		input[type="submit"]:hover{
+			background:#ff5722;
+		}
+		input[type="submits"]{
+		position:relative;
+		border-radius: 25px 25px 25px 25px;
+	     width:100px;
+		height:50px;
+		border:none;
+		outline:none;
+		cursor:pointer;
+		background:orange;
+		color:#fff;
+		text-align:center;
+		}
+		input[type="submits"]:hover{
+			background: green;
+		}
+		
+		
+		
+
+.top-menu {
+background-color: blue;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+    margin: 0px; 
+    padding: 0px;
+}
+.top-menu nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align:right;
+padding-right:50px
+}
+.top-menu nav ul li {
+display: inline-block;
+}
+.top-menu nav ul li a {
+display: block;
+padding: 15px 30px;
+color: white;
+text-decoration: none;
+}
+.top-menu nav ul li a:hover {
+background-color: black;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

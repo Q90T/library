@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحة ￿لامكتبة</title>
+<link rel="stylesheet" type="text/css" href="stylse.css">
+</head>
+<body>
+<div class="content" >
+<div class="navbarx">
+<div class="navbar">   
+  <button id="menuButton"></button>
+  <ul id="menu">
+    <li><a href="s4.html">الرئيسية</a></li>
+         <li><a href="#9">المساعدة </a></li>
+   
+   <li>   <a onclick="showFlags()" class="bn">اللغة</a></li>
+<div id="flags"></div>
+
+  </ul>
+  <span id="toggleNightMode">🌞</span>
+</div>
+
+<h1>المكتبة الخاصة</h1>
+</div>
+<div style="margin-top: 50px;">
+
+<br>
+				<form action="borrow.php" method="post">
+                 <label for="book_name_borrow"></label>
+                 <input type="text" id="book_name_borrow" name="book_name_borrow"   placeholder="اسم الكتاب" >
+				 <input type="text3" id="book_name_borrow" name="book_name_borrow"   placeholder="رقم الكتاب" > 
+				 <input type="text3" id="book_name_borrow" name="book_name_borrow"   placeholder="مؤلف الكتاب" >
+                  <input type="submit" name="" value="بحث"  > <br> <br>
+				  <input type="submits" value="استعارة" >
+	              <input type="submits"value="تحميل"   > 
+	               <input type="submits"  value="شراء"  name="">
+                 </form>
+				 </div>
+<script src="script.js" src="script2.js"></script>
+</body>
+</html>

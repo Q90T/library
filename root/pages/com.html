@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحة لامكتبة</title>
+<link rel="stylesheet" type="text/css" href="stylse.css">
+</head>
+<body>
+<div class="content" >
+<div class="navbarx">
+<div class="navbar">   
+  <button id="menuButton"></button>
+  <ul id="menu">
+    <li><a href="s4.html">الرئيسية</a></li>
+         <li><a href="#9">المساعدة </a></li>
+   
+   <li>   <a onclick="showFlags()" class="bn">اللغة</a></li>
+<div id="flags"></div>
+
+  </ul>
+  <span id="toggleNightMode">🌞</span>
+</div>
+
+<h1>التعليقات</h1> 
+</div>
+<div style="margin-top: 50px;">
+
+
+				
+
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+<label for="bookName"> </label><br>
+<input type="text1" id="bookName" name="bookName" placeholder=" ...............................................اسم الكتاب"><br>
+<label for="comment"></label><br>
+<input type="text2" id="comment" name="comment"   placeholder="...............................................................................................................................................التعليق"><br>
+<!--<label type="text1" for="email">: البريدالالكتروني</label><br>
+<input type="email" id="email" name="email" class="bnn"><br> -->
+<button type="submit" class="bnn">إضافة تعليق</button>
+</form>
+هنا اوريد للمستخدم ان يضغط على ذر (اضافة تعليق) في حالة لم يكن مسجل تظهر له لافتة مكتوب فيها يجب عليك التسجل و في حالة كان مسجل بامكانه كتابة اسم الكتاب و التعليق عليه ايضا
+حيث يظهر في الاسفلبريده الالكتروني بالازرق و اسم الكتاب وتعليقه علية 
+كما ان بامكان المسجلين الاعجاب بتعليقه و عدم الاعجاب به من خلال ذرين بجانب تعليقه
+وبامكان المستخدم تعديل تعليقه وحذفه
+<div id="commentsContainer">
+</div>
+				 </div>
+<script src="script.js" src="script2.js"></script>
+</body>
+</html>
